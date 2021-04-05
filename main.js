@@ -16,7 +16,7 @@ let rl = Readline.createInterface(process.stdin, process.stdout)
 let WAConnection = simple.WAConnection(_WAConnection)
 
 
-global.owner = ['6281515860089','6281357302007','6288235435804'] // Put your number here
+global.owner = ['6281515860089','6281357302007','6288235435804','6283161362292]// Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -284,7 +284,7 @@ conn.handler = async function (m) {
     }
   }
 }
-conn.welcome = 'Hai, @user👋\nSelamat datang di grup @subject💖\n\n*[ SOSMED BOT ]*\nWajib di Follow!\n*Instagram:* @arpunchs\n*Youtube:* Drawl Nag'
+conn.welcome = 'Hai, @user👋\nSelamat datang di grup @subject💖\n\n*[ SOSMED BOT ]*\nWajib di Follow!\n*Instagram:* @raka.snjya10'
 conn.bye = 'Selamat tinggal @user!\n\nKami akan mengenang jasamu ✨\n*Jika sering komen/Nimbrung*'
 conn.onAdd = async function ({ m, participants }) {
   let chat = global.DATABASE._data.chats[m.key.remoteJid]
@@ -363,7 +363,7 @@ conn.on('close', () => {
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWNER NfQ!*_',
+    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWNER RAKA!*_',
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
     premium: 'Perintah ini hanya untuk member _*Premium*_ !\nIngin beli? Segera ketik *#premium*\nDi Instagram: *@arpunchs*',
