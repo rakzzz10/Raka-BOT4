@@ -1,4 +1,4 @@
-# Drawl Nag
+# RAKA-BOT4
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
@@ -8,8 +8,8 @@ Simple WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Arya274/Arya-BOT4
-> cd Arya-BOT4
+> git clone https://github.com/rakzzz10/Raka-BOT4
+> cd Raka-BOT4
 > npm install
 ```
 ###### Run
